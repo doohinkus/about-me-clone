@@ -11,11 +11,43 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Varela Round', sans-serif;
+
+}
+body{
+  background-color: #F2EFEE;
+}
+.container{
+  width: 80%;
+  margin:auto;
 }
 .header{
   font-family: 'Pacifico', cursive;
+  overflow: auto;
+  vertical-align: middle;
+}
+.logo{
+  font-size: 25pt;
+  font-weight: bold;
+  float:left;
+}
+.navigation{
+  float: right;
+  vertical-align: middle;
+  font-family: 'Walter Turncoat', cursive;
+  font-size: 15pt;
+  margin-top: 10px;
+
 }
 .content{
   font-family: 'Lora', serif;
+  overflow: auto;
+}
+.col-left{
+  float: left;
+  width: 70%;
+
+}
+.col-right{
+  float: right;
+
 }
