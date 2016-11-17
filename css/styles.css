@@ -16,8 +16,12 @@
 body{
   background-color: #F2EFEE;
 }
+img{
+  margin:0;
+  padding:0;
+}
 .container{
-  width: 80%;
+  max-width: 910px;
   margin:auto;
 }
 .header{
